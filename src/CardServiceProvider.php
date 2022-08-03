@@ -2,10 +2,10 @@
 
 namespace Syehan\CardList;
 
-use Syehan\CardList\Console\CardCommand;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
+use Syehan\CardList\Console\CardCommand;
 
 class CardServiceProvider extends ServiceProvider
 {
